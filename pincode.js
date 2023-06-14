@@ -7,3 +7,12 @@ if(pincodeCheck){
 else{
     console.log("Pincode is not valid");
 }
+//UC2 Restrict to take alphabet at start
+let pincodeCheck1 = pincodeRegex.test("A400088");
+
+if(pincodeCheck1){
+    console.log("Pincode is valid");
+}
+else{
+    console.log("Pincode is not valid");
+}
